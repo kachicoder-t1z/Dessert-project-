@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee & Shakes</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <div class="logo">☕ Coffee & Shakes</div>
+
+    <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Juices</a></li>
+    <li><a href="coffee.html">Coffee & Shakes</a></li>
+    <li><a href="icecream.html">Ice Cream</a></li>
+    <li><a href="#offers">Offers</a></li>
+    <li><a href="desserts.html">Desserts</a></li>
+    <li><a href="#contact">Contact</a></li>
+
+</ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="coffee-hero">
+
+    <div class="hero-text">
+        <h1>Premium Coffee & Shakes</h1>
+        <h2>🔥 Up To 50% OFF</h2>
+        <p>
+            Enjoy refreshing cold coffee, creamy milkshakes,
+            chocolate drinks and special summer beverages.
+        </p>
+
+        <button onclick="showOffer()">
+            Order Now
+        </button>
+    </div>
+
+</section>
+
+<!-- Categories -->
+
+<section class="drink-section">
+
+    <h2>Our Special Drinks</h2>
+
+    <div class="product-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?w=800" alt="">
+            <h3>Cold Coffee</h3>
+            <p>Rich coffee with ice cream.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800" alt="">
+            <h3>Chocolate Shake</h3>
+            <p>Chocolate lovers favorite.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=800" alt="">
+            <h3>Strawberry Shake</h3>
+            <p>Fresh strawberry delight.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=800" alt="">
+            <h3>Oreo Shake</h3>
+            <p>Creamy Oreo goodness.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=800" alt="">
+            <h3>Mango Shake</h3>
+            <p>Summer special mango treat.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800" alt="">
+            <h3>Cappuccino</h3>
+            <p>Classic Italian coffee.</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SALE SECTION -->
+
+<section id="offers" class="sale-banner">
+
+    <h2>🔥 Summer Sale 2026</h2>
+
+    <p>
+        Buy Any 2 Drinks & Get 1 Free
+    </p>
+
+    <h1>50% OFF</h1>
+
+</section>
+
+<!-- BEST SELLERS -->
+
+<section class="best-sellers">
+
+    <h2>Best Sellers</h2>
+
+    <div class="product-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1579954115563-e72bf1381629?w=800">
+            <h3>Mocha Frappe</h3>
+            <p>Best Selling Coffee Drink</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800">
+            <h3>Iced Latte</h3>
+            <p>Refreshing Cold Latte</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1577805947697-89e18249d767?w=800">
+            <h3>Vanilla Shake</h3>
+            <p>Customer Favorite</p>
+            <button onclick="addToCart()">Add To Cart</button>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- REVIEWS -->
+
+<section class="reviews">
+
+    <h2>Customer Reviews</h2>
+
+    <div class="review-box">
+        ⭐⭐⭐⭐⭐
+        <p>Best cold coffee I have ever tasted.</p>
+    </div>
+
+    <div class="review-box">
+        ⭐⭐⭐⭐⭐
+        <p>Oreo shake was absolutely amazing.</p>
+    </div>
+
+    <div class="review-box">
+        ⭐⭐⭐⭐⭐
+        <p>Fast delivery and excellent quality.</p>
+    </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+    <h2>Contact Us</h2>
+
+    <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textarea rows="5" placeholder="Your Message"></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+    </form>
+
+</section>
+
+<footer>
+    <p>© 2026 Coffee & Shakes | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+<script>
+function showOffer(){
+    alert("🎉 Congratulations! 50% OFF Offer Activated!");
+}
+</script>
+<script src="script.js"></script> 
+
+</body>
+</html>
